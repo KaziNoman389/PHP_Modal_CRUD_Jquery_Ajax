@@ -8,6 +8,7 @@ $(document).ready(function() {
         dataType: "json",
         success: function(result) {
             $("#employeeData").html(result);
+            $('#emp_table').DataTable();
         }
     });
 
